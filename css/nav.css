@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.my-head {
+    min-height: 70px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-nav {
+    padding-top: 4rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: whitesmoke;
+}
+
+.content {
+    height: 2000px;
+    flex-grow: 1;
+    background: saddlebrown;
+}
